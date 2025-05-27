@@ -1,1 +1,0 @@
-# copacker-peru
