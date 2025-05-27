@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Maquilas - Packaging</title>
+    <link rel="preload" href="css/embalaje_css.css" as="stylesheet">
+    <link rel="preload" href="css/header-servicio.css" as="stylesheet">
+    <link rel="stylesheet" href="css/embalaje_css.css">
+    <link rel="stylesheet" href="css/header-servicio.css">
+    <link rel="website Icon" href="img/img-inicio/logo-1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8bc6f858e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="flex nav">
+            <div class="img-logo">
+                <a href="index.html">
+                    <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa3334801547fd50e2a95_logo-multi-maquilas.png" alt="Multi-Maquila Logo">
+                </a>
+            </div>
+            <div class="center">
+                <input type="checkbox" id="burger-menu">
+                <label for="burger-menu" class="burger-label">
+                    <i class="fa-solid fa-bars"></i>   
+                </label>
+
+                <ul class="flex enlace flex-column2">
+                    <li class="display-none logo-menu center">
+                        <a href="index.html">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa3334801547fd50e2a95_logo-multi-maquilas.png" alt="Multi-Maquila Logo">
+                        </a>
+                    </li>
+                    <li><a href="index.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" onclick="toggleServicios()" id="toggleServiciosBtn">Services ▼</a>
+                        <ul class="dropdown-content" id="serviciosDropdown">
+                            <li><a href="servicios/empaquetado.html">PRODUCT PACKAGING</a></li>
+                            <li><a href="servicios/etiquetado.html">PRODUCT LABELING</a></li>
+                            <li><a href="servicios/encajillado.html">PRODUCT CASE PACKING</a></li>
+                            <li><a href="servicios/embolsado.html">BAGGING</a></li>
+                            <li><a href="servicios/armado-ofertas.html">OFFER ASSEMBLY SERVICE</a></li>
+                            <li><a href="servicios/retractilado.html">SHRINK WRAPPING</a></li>
+                            <li><a href="servicios/acondicionamiento.html">PRODUCT CONDITIONING</a></li>
+                            <li><a href="servicios/enmangado.html">THERMO-SLEEVING</a></li>
+                            <li><a href="servicios/sachets.html">SACHET FORMATS</a></li>
+                            <li><a href="servicios/formulacion.html">FORMULATION</a></li>
+                            <li><a href="servicios/diseno-etiquetas.html">LABEL DESIGN</a></li>
+                            <li><a href="servicios/asesoria-contratados.html">CONTRACT DRAFTING ADVICE</a></li>
+                            <li><a href="servicios/laminas-metalizadas.html">PACKAGING IN METALIZED FILMS</a></li>
+                            <li><a href="servicios/sachet-stick.html">STICK-TYPE SACHET PACKAGING</a></li>
+                            <li><a href="servicios/codificado.html">BATCH AND EXPIRATION DATE CODING</a></li>
+                            <li><a href="servicios/frascos-plastico.html">PLASTIC JAR PACKAGING</a></li>
+                            <li><a href="servicios/embalaje.html">POST-PACKAGING SERVICE</a></li>
+                            <li><a href="servicios/mezclado.html">POWDER FORMULATION AND MIXING</a></li>
+                            <li><a href="servicios/contratos-abastecimiento.html">SUPPLY CONTRACT ADVICE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="formatos.html">Forms</a></li>
+                    <li><a href="#embalaje" id="enlace-emb">Packaging</a></li>
+                    <li>
+                        <div id="google_translate_element"></div>
+                    </li>
+                    <li class="display-none btn-2 center">
+                        <button onclick="location.href='https://wa.me/51975541724/?text=Hello,%20I%20would%20like%20more%20information!'">Write to us</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn center">
+                <button onclick="location.href='https://wa.me/51975541724/?text=Hello,%20I%20would%20like%20more%20information!'">Write to us</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="embalaje" id="embalaje">
+        <div class="flex flex-column center gap-embalaje-2">
+            <div class="flex flex-column center">
+                <div class="center-align embalaje-title">
+                    <div>Flexible Bags</div>
+                </div>
+                <div class="embalaje-text center">
+                    <p class="center-align">
+                        We offer high-quality flexible bags for packaging, with options ranging from single layers to aluminum barrier films.
+                    </p>
+                </div>
+                <div class="grid embalaje-column-3 center gap-embalaje">
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30e3443e4c285b329ab_PillowBag.png" alt="Pillowbag">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Pillowbag</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Pillow-shaped bag sealed on the sides and ends.
+                                Economical and used for snacks and light products.</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30d6ba15e00d0616c8c_4-sided-sealed-Flexible-Bag.png" alt="4-Sided-Sealed Flexible Bag">
+                        </div>
+                        <div class="item-title center-align">
+                            <h2>4-Sided-Sealed</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Bag sealed on all sides, very secure.
+                                Used for food, cosmetics, or medical products.</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30decdcec2b40099c23_Flexible-Bag-flat-top.png" alt="Flexible Bag With Flat Top">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Flat Top</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Rectangular bag with flat base and top.
+                                Ideal for products like coffee or cereals.</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30d370e5aa36fbd8e44_Flexible-Bag-With-Clip.png" alt="Flexible Bag With Clip">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Clip Bag</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Flexible bag closed with clip or tie.
+                                Resealable, perfect for fresh foods.</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30ebddd0fda56668586_Sealed-Angular-Flexible-Bag.png" alt="Angular Flexible Bag">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Angular</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Bag with angled seal and firm shape.
+                                Provides good presentation and product stability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-column center">
+                <div class="center-align embalaje-title">
+                    <div>Side-Sealed Bags</div>
+                </div>
+                <div class="embalaje-text center">
+                    <p class="center-align">
+                        We offer bags with sealed edges, perfect for portioned products like single-serve dessert packs or mixed spices.
+                    </p>
+                </div>
+                <div class="grid embalaje-column-3 center gap-embalaje">
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa3268c43229b84ea4559_3-side-sealed-bag.png" alt="3-side sealed bag">
+                        </div>
+                        <div class="item-title center-align">
+                            <h2>3-Side Sealed Bag</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Sealed on 3 edges.
+                                Ideal for flat products or small portions.</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30d370e5aa36fbd8e2b_4-side-sealed-bag.png" alt="4-side sealed bag">
+                        </div>
+                        <div class="item-title center-align">
+                            <h2>4-Side Sealed Bag</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Sealed on all sides.
+                                Provides greater protection and security.</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30d41f12981ae93cb56_4-sid-sealed-bag-with-bottom-fold.png" alt="4-side sealed bag with bottom fold">
+                        </div>
+                        <div class="item-title center-align">
+                            <h2>4-Side Base Bag</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>With bottom fold, more space.
+                                Ideal for liquids or bulky products.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-column center">
+                <div class="center-align embalaje-title">
+                    <div>Square Bottom Bag</div>
+                </div>
+                <div class="embalaje-text center">
+                    <p class="center-align">
+                        We offer paper bags with square bottoms in various sizes, ideal for cereals and sugar, with options for heat sealing, viewing windows, and inner coating.
+                    </p>
+                </div>
+                <div class="center gap-embalaje margin-top">
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30d1765f4490be0f1d1_block%20bottom%20bag.png" alt="Block Bottom Bag">
+                        </div>
+                        <div class="item-title center-align">
+                            <h2>Block Bottom Bag</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Square or rectangular base, very stable.
+                                Ideal for products that must stand upright.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-column center">
+                <div class="center-align embalaje-title">
+                    <div>Boxes</div>
+                </div>
+                <div class="embalaje-text center">
+                    <p class="center-align">
+                        We offer boxes with bag-in-box system, providing greater protection and allowing customized inner bags and additional packages.
+                    </p>
+                </div>
+                <div class="center gap-embalaje margin-top">
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30d4801547fd50e1466_Bag%20in%20Box.png" alt="Bag in Box">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Bag-in-Box</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Flexible bag inside a rigid box.
+                                Used for liquids like wine, juices, or oils.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-column center">
+                <div class="center-align embalaje-title">
+                    <div>Cans</div>
+                </div>
+                <div class="embalaje-text center">
+                    <p class="center-align">
+                        We offer round cans with lids, ideal for small quantities, available in membrane, shaker, or combined versions, and in custom sizes.
+                    </p>
+                </div>
+                <div class="center gap-embalaje margin-top">
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30e1f97a9af81cb5eb1_round%20cans%20with%20lid.png" alt="Round cans with lid">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Round Can</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Metal container with airtight lid.
+                                Ideal for powders, food, or cosmetics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-column center">
+                <div class="center-align embalaje-title">
+                    <div>Tray Technique</div>
+                </div>
+                <div class="embalaje-text center">
+                    <p class="center-align">
+                        We offer trays in various sizes for optimal presentation on shelves, with options for multiple rows and automatic mixing of assorted products.
+                    </p>
+                </div>
+                <div class="grid embalaje-column-2 center gap-embalaje">
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30ee7e76cc856c83b35_Tray-tech-1.png" alt="Tray tech 1">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Tray Tech 1</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Simple, low, open tray.
+                                Ideal for fruits, bakery, or display.</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-column center item-gap">
+                        <div class="item-img">
+                            <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa30e9886d481fc1a2d06_Tray-tech-2.png" alt="Tray tech 2">
+                        </div>
+                        <div class="item-title center">
+                            <h2>Tray Tech 2</h2>
+                        </div>
+                        <div class="item-text">
+                            <p>Tray with higher walls.
+                                Provides better protection and product organization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer center flex flex-column gap6rem-footer-2">
+        <div class="flex gap6rem-footer flex-column-footer">
+            <div class="footer-img center">
+                <a href="https://wa.me/51975541724/?text=Hello,%20I%20would%20like%20more%20information!" target="_blank">
+                    <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa3146a87e22fd21dd36a_Pon-Tu-Marca.png" alt="PUT YOUR BRAND">
+                </a>
+            </div>
+                        <div class="flex flex-column gappx4 center">
+                <div class="footer-text center-align">
+                    Ready to stand out?
+                </div>
+                <div class="footer-text center-align">
+                    Make your brand unforgettable!
+                </div>
+                <div class="footer-btn center">
+                    <button onclick="location.href='https://wa.me/51975541724/?text=Hello,%20I%20would%20like%20more%20information!'">Contact Us</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-column-footer my-gap center-special-2">
+            <div class="flex flex-column">
+                <div class="img-logo">
+                    <a href="index.html">
+                        <img src="https://cdn.prod.website-files.com/680fa2cc929314f4bd3896d6/680fa333be6443a4cdb5b810_logo-multi-maquilas-2.png" alt="Multi-Maquila Logo">
+                    </a>
+                </div>
+                <div class="flex gappx5 red">
+                    <div class="icon-footer">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="text">
+                        <a href="https://wa.me/51975541724/?text=Hello,%20I%20would%20like%20more%20information!" target="_blank">
+                            +51 975 541 724
+                        </a>
+                    </div>
+                </div>
+                <div class="flex gappx5 red">
+                    <div class="icon-footer">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                        <a href="mailto:ventas@multi-maquilas.com?Subject=Here%20is%20the%20subject%20of%20the%20email">
+                            ventas@multi-maquilas.com
+                        </a>
+                    </div>
+                </div>
+                <div class="flex gappx4 my-social red">
+                    <a href="https://www.facebook.com/multimaquilas">
+                        <div class="social face">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/51975541724/?text=Hello,%20I%20would%20like%20more%20information!" target="_blank">
+                        <div class="social what">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-column-3-pt2 gap3rem-footer">
+                <div class="flex flex-column gappx3 h-footer">
+                    <div class="footer-title">
+                        <h2>Company</h2>
+                    </div>
+                    <div class="flex flex-column h-enlace h-enlace-gap">
+                        <a href="index.html">About Us</a>
+                        <a href="formatos.html">Forms</a>
+                        <a href="#embalaje">Packaging</a>
+                    </div>
+                </div>
+                <div class="flex flex-column gappx3 h-footer">
+                    <div class="footer-title">
+                        <h2>Services</h2>
+                    </div>
+                    <div class="h-enlace-2 flex enlace-flex-column h-enlace-gap-2">
+                        <div class="flex flex-column h-enlace-gap">
+                            <a href="servicios/empaquetado.html">Packaging</a>
+                            <a href="servicios/etiquetado.html">Labeling</a>
+                            <a href="servicios/encajillado.html">Case Packing</a>
+                            <a href="servicios/embolsado.html">Bagging</a>
+                            <a href="servicios/armado-ofertas.html">Offer Assembly</a>
+                            <a href="servicios/retractilado.html">Shrink Wrapping</a>
+                            <a href="servicios/acondicionamiento.html">Conditioning</a>
+                            <a href="servicios/enmangado.html">Sleeving</a>
+                            <a href="servicios/sachets.html">Sachets</a>
+                            <a href="servicios/formulacion.html">Formulation</a>
+                        </div>
+                        <div class="flex flex-column h-enlace-gap">
+                            <a href="servicios/diseno-etiquetas.html">Label Design</a>
+                            <a href="servicios/asesoria-contratados.html">Contract Advice</a>
+                            <a href="servicios/laminas-metalizadas.html">Metalized Films</a>
+                            <a href="servicios/sachet-stick.html">Stick Sachets</a>
+                            <a href="servicios/codificado.html">Coding</a>
+                            <a href="servicios/frascos-plastico.html">Plastic Jars</a>
+                            <a href="servicios/embalaje.html">Post-Packaging</a>
+                            <a href="servicios/mezclado.html">Mixing</a>
+                            <a href="servicios/contratos-abastecimiento.html">Supply Contracts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translate.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
+
