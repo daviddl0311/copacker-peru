@@ -64,7 +64,7 @@ a {
     color: #3EAB35;
 }
 .btn > button {
-    background-color: #3EAB35;
+    background-color: #0e3d8f;
     color: white;
     border-radius: 10px;
     padding-block: .9rem;
@@ -76,7 +76,7 @@ a {
     font-weight: 800;
 }
 .btn > button:hover {
-    background-color: #309128;
+    background-color: #3f7eeb;
 }
 .display-none {
     display: none;
@@ -181,8 +181,8 @@ a {
     gap: 30px;
 }
 .footer-btn button {
-    background-color: #c8efc3;
-    color: #0b290a;
+    background-color: #0e3d8f;
+    color: #FFFF;
     text-transform: uppercase;
     padding-inline: 1.5rem;
     padding-block: .9rem;
@@ -194,7 +194,7 @@ a {
     font-weight: 800;
 }
 .footer-btn button:hover {
-    background-color: #99e293;
+    background-color: #3f7eeb;
 }
 .gappx5 {
     gap: 18px;
@@ -359,7 +359,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -370,7 +370,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -431,7 +431,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -442,7 +442,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -528,7 +528,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -539,7 +539,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -635,7 +635,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -646,7 +646,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -793,7 +793,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -804,7 +804,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -944,7 +944,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -955,7 +955,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;

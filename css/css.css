@@ -44,7 +44,7 @@ a {
 
 /* --------- HEADER ---------- */
 .img-logo img {
-    width: 12rem;
+    width: 15rem;
 }
 .nav {
     justify-content: space-between;
@@ -64,7 +64,7 @@ a {
     color: #3EAB35;
 }
 .btn > button {
-    background-color: #3EAB35;
+    background-color: #0e3d8f;
     color: white;
     border-radius: 10px;
     padding-block: .9rem;
@@ -106,7 +106,7 @@ a {
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: .3;
+    opacity: .5;
 }
 .multi-info {
     position: relative;
@@ -137,7 +137,7 @@ a {
     font-weight: 400;
 }
 .sub-title-button  button {
-    background-color: #3EAB35;
+    background-color: #0e3d8f;
     color: white;
     border-radius: 10px;
     padding-inline: 1.3rem;
@@ -262,7 +262,7 @@ a {
 }
 .item-button > a {
     font-size: clamp(10px, 3vw, 15px);
-    background-color: #3EAB35;
+    background-color: #0e3d8f;
     padding-inline: 1.3rem;
     padding-block: .8rem;
     border-radius: 2rem;
@@ -276,11 +276,11 @@ a {
 }
 .item-button-2 > a {
     font-size: clamp(10px, 3vw, 15px);
-    background-color: #C8EFC3;
+    background-color: #3777e6;
     padding-inline: 1.3rem;
     padding-block: .8rem;
     border-radius: 2rem;
-    color: #0B290A;
+    color: #44c93e;
     transition: all .3s ease-in-out;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -373,8 +373,8 @@ a {
     gap: 30px;
 }
 .footer-btn button {
-    background-color: #c8efc3;
-    color: #0b290a;
+    background-color: #0e3d8f;
+    color: #ffff;
     text-transform: uppercase;
     padding-inline: 1.5rem;
     padding-block: .9rem;
@@ -386,7 +386,7 @@ a {
     font-weight: 800;
 }
 .footer-btn button:hover {
-    background-color: #99e293;
+    background-color: #3f7eeb;
 }
 .gappx5 {
     gap: 18px;
@@ -548,7 +548,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -559,8 +559,9 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
+    
     .burger-label {
         display: block;
     }
@@ -615,7 +616,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -626,7 +627,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -771,7 +772,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -782,7 +783,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -929,7 +930,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -940,7 +941,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
@@ -1060,7 +1061,7 @@ a {
         display: block;
     }
     .btn-2 button {
-        background-color: #3EAB35;
+        background-color: #0e3d8f;
         width: 100%;
         color: white;
         border-radius: 10px;
@@ -1071,7 +1072,7 @@ a {
         transition: all .3s ease-in-out;
     }
     .btn-2 > button:hover {
-        background-color: #309128;
+        background-color: #3f7eeb;
     }
     .burger-label {
         display: block;
