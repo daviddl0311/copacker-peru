@@ -61,7 +61,7 @@ a {
     font-weight: 800;
 }
 .enlace > li > a:hover {
-    color: #3EAB35;
+    color: #0e3d8f;
 }
 .btn > button {
     background-color: #0e3d8f;
@@ -76,7 +76,7 @@ a {
     font-weight: 800;
 }
 .btn > button:hover {
-    background-color: #3f7eeb;
+    background-color: #000a52;
 }
 .display-none {
     display: none;
@@ -109,7 +109,7 @@ a {
 .empaquetado-info {
     font-size: clamp(18px, 3vw, 35px);
     height: 800px;
-    color: #33CC33;
+    color: #2a6fe6;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -143,7 +143,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     width: 450px;
-    color: #3EAB35;
+    color: #0e3d8f;
 }
 .item-text {
     text-align: justify;
@@ -161,7 +161,7 @@ a {
 
 /*--------- VALORES -------*/
 .val {
-    background-color: #0b290a;
+    background-color: #0f285c;
     padding-block: 5rem;
 }
 .item-val {
@@ -170,7 +170,7 @@ a {
 .item-val:hover {
     .item-val-img {
         scale: 1.1;
-        background-color: #2b8123;
+        background-color: #035bf2;
     }
     .item-val-img img {
         opacity: .1;
@@ -187,7 +187,8 @@ a {
     left: 0px;
     position: absolute;
     z-index: 0;
-    background-color: #c8efc3;
+    color: #0f285c;
+    background-color: #edf8ff;
     border-radius: 10px;
     transition: all .3s ease-in-out;
 }
@@ -212,7 +213,7 @@ a {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    color: #0b290a;
+    color: #0f285c;
     transition: all .3s ease-in-out;
 }
 .item-val-text-2 {
@@ -256,7 +257,7 @@ a {
     font-weight: 800;
 }
 .footer-btn button:hover {
-    background-color: #3f7eeb;
+    background-color: #000a52;
 }
 .gappx5 {
     gap: 18px;
@@ -284,8 +285,8 @@ a {
     border-radius: 100%;
     padding-inline: 15.2px;
     padding-block: 10px;
-    background-color: #c8efc3;
-    color: #0b290a;
+    background-color: white;
+    color: #0b0a29;
     font-size: clamp(17px, 3vw, 20px);
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -308,7 +309,7 @@ a {
 }
 .footer-title {
     text-transform: uppercase;
-    color: #0B290A;
+    color: #000a52;
     font-size: clamp(12px, 3vw, 13px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -484,7 +485,7 @@ a {
         left: 0px;
         position: absolute;
         z-index: 0;
-        background-color: #c8efc3;
+        /* background-color: #c8efc3; */
         border-radius: 10px;
         transition: all .3s ease-in-out;
     }
@@ -714,7 +715,7 @@ a {
         left: 0px;
         position: absolute;
         z-index: 0;
-        background-color: #c8efc3;
+        /* background-color: #c8efc3; */
         border-radius: 10px;
         transition: all .3s ease-in-out;
     }
@@ -864,7 +865,7 @@ a {
         left: 0px;
         position: absolute;
         z-index: 0;
-        background-color: #c8efc3;
+        /* background-color: #c8efc3; */
         border-radius: 10px;
         transition: all .3s ease-in-out;
     }
@@ -1034,7 +1035,7 @@ a {
         left: 0px;
         position: absolute;
         z-index: 0;
-        background-color: #c8efc3;
+        /* background-color: #c8efc3; */
         border-radius: 10px;
         transition: all .3s ease-in-out;
     }
