@@ -126,7 +126,7 @@ a {
     font-weight: 800;
 }
 .sub-title-multi {
-    color: #33CC33;
+    color: #0e3d8f;
 }
 .sub-title-text {
     gap: .6rem;
@@ -358,7 +358,7 @@ a {
 
 /*--------- FOOTER ---------*/
 .footer {
-    background-color: #309128;
+    background-color: #2372fc;
     padding: 5rem;
 }
 .footer-text {
