@@ -61,7 +61,7 @@ a {
     font-weight: 800;
 }
 .enlace > li > a:hover {
-    color: #3EAB35;
+    color: #0e3d8f;
 }
 .btn > button {
     background-color: #0e3d8f;
@@ -76,7 +76,7 @@ a {
     font-weight: 800;
 }
 .btn > button:hover {
-    background-color: #3f7eeb;
+    background-color: #000a52;
 }
 .display-none {
     display: none;
@@ -86,7 +86,7 @@ a {
 }
 
 #enlace-for {
-    color: #3EAB35;
+    color: #0e3d8f;
 }
 
 #google_translate_element {
@@ -129,7 +129,7 @@ a {
     .for-inf {
         z-index: 0;
         height: 350px;
-        background-color: #0B290A;
+        background-color: #0f285c;
     }
 }
 .for-img img {
@@ -196,7 +196,7 @@ a {
     font-weight: 800;
 }
 .footer-btn button:hover {
-    background-color: #3f7eeb;
+    background-color: #000a52;
 }
 .gappx5 {
     gap: 18px;
@@ -206,7 +206,7 @@ a {
 }
 .icon-footer {
     font-size: clamp(25px, 3vw, 28px);
-    color: #0b290a;
+    color: rgb(14, 10, 36);
     padding-left: 1.2rem;
 }
 .text {
@@ -224,8 +224,8 @@ a {
     border-radius: 100%;
     padding-inline: 15.2px;
     padding-block: 10px;
-    background-color: #c8efc3;
-    color: #0b290a;
+    background-color: white;
+    color: #0b0a29;
     font-size: clamp(17px, 3vw, 20px);
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -248,7 +248,7 @@ a {
 }
 .footer-title {
     text-transform: uppercase;
-    color: #0B290A;
+    color: #000a52;
     font-size: clamp(12px, 3vw, 13px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -669,7 +669,7 @@ a {
         .for-inf {
             z-index: 0;
             height: 310px;
-            background-color: #0B290A;
+            /* background-color: #0B290A; */
         }
     }
     .for-img img {
@@ -807,7 +807,7 @@ a {
         .for-inf {
             z-index: 0;
             height: 290px;
-            background-color: #0B290A;
+            /* background-color: #0B290A; */
         }
     }
     .for-img img {

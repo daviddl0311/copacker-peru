@@ -61,7 +61,7 @@ a {
     font-weight: 800;
 }
 .enlace > li > a:hover {
-    color: #3EAB35;
+    color: #0e3d8f;
 }
 .btn > button {
     background-color: #0e3d8f;
@@ -76,7 +76,7 @@ a {
     font-weight: 800;
 }
 .btn > button:hover {
-    background-color: #309128;
+    background-color: #000a52;
 }
 .display-none {
     display: none;
@@ -86,7 +86,7 @@ a {
 }
 
 #enlace-nos {
-    color: #3EAB35;
+    color: #0e3d8f;
 }
 
 #google_translate_element {
@@ -106,7 +106,7 @@ a {
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: .5;
+    opacity: .2;
 }
 .multi-info {
     position: relative;
@@ -126,7 +126,7 @@ a {
     font-weight: 800;
 }
 .sub-title-multi {
-    color: #0e3d8f;
+    color: #035bf2;
 }
 .sub-title-text {
     gap: .6rem;
@@ -149,7 +149,7 @@ a {
     font-weight: 800;   
 }
 .sub-title-button  button:hover {
-    background-color: #33CC33;
+    background-color: #000a52;
 }
 .gap2rem {
     gap: 2rem;
@@ -173,14 +173,14 @@ a {
     padding: 5rem;
 }
 .title-multi {
-    color: #3EAB35;
+    color: #0e3d8f;
     text-transform: uppercase;
     font-size: clamp(23px, 3vw, 25px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
 .nosotros-title {
-    color: #3EAB35;
+    color: #0e3d8f;
     text-transform: uppercase;
     font-size: clamp(16px, 3vw, 25px);
     font-family: 'Barlow', sans-serif;
@@ -217,15 +217,15 @@ a {
     height: 400px;
 }
 .item {
-    background-color: #C8EFC3;
+    background-color: #84d1ff;
     box-shadow: 6px 6px 6px rgb(201, 201, 201);
 }
 .item-2 {
-    background-color: #3EAB35;
+    background-color: #2193ff;
     box-shadow: 6px 6px 6px rgb(201, 201, 201);
 }
 .item-3 {
-    background-color: #99E293;
+    background-color: #4bb6ff;
     box-shadow: 6px 6px 6px rgb(201, 201, 201);
 }
 .item-img img {
@@ -235,7 +235,7 @@ a {
     border-radius: 10px;
 }
 .item-title {
-    color: #0B290A;
+    color: #0f285c;
     font-size: 12px;
     text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
@@ -249,7 +249,7 @@ a {
     font-weight: 600;
 }
 .item-text {
-    color: #0B290A;
+    color: #0f285c;
     font-size: 16px;
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 400;
@@ -272,36 +272,35 @@ a {
     font-weight: 800;
 }
 .item-button > a:hover {
-    background-color: #309128;
+    background-color: #000a52;
 }
 .item-button-2 > a {
     font-size: clamp(10px, 3vw, 15px);
-    background-color: #3777e6;
+    background-color: #0e3d8f;
     padding-inline: 1.3rem;
     padding-block: .8rem;
     border-radius: 2rem;
-    color: #44c93e;
+    color: white;
     transition: all .3s ease-in-out;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
 .item-button-2 > a:hover {
-    background-color: #99e293;
+    background-color: #000a52;
 }
 .item-button-3 > a {
     font-size: clamp(10px, 3vw, 15px);
-    background-color: #C8EFC3;
+    background-color: #000a52;
     padding-inline: 1.3rem;
     padding-block: .8rem;
     border-radius: 2rem;
-    color: #0B290A;
-    border: 1px solid #66CB5D;
+    /* color: #0B290A; */
     transition: all .3s ease-in-out;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
 .item-button-3 > a:hover {
-    background-color: #297223;
+    background-color: #000a52;
 }
 .gap-servicio {
     gap: 4rem;
@@ -323,7 +322,7 @@ a {
 
 /*-------- OPTIMIZA --------*/
 .optimiza-title {
-    color: #3EAB35;
+    color: #0e3d8f;
     text-transform: uppercase;
     font-size: clamp(18px, 3vw, 25px);
 }
@@ -334,7 +333,7 @@ a {
     width: 25rem;
 }
 .optimiza-pregunta {
-    color: #297223;
+    color: #0e3d8f;
     font-size: clamp(20px, 3vw, 26px);
     width: 360px;
     font-weight: bold;
@@ -386,7 +385,7 @@ a {
     font-weight: 800;
 }
 .footer-btn button:hover {
-    background-color: #3f7eeb;
+    background-color: #000a52;
 }
 .gappx5 {
     gap: 18px;
@@ -396,7 +395,7 @@ a {
 }
 .icon-footer {
     font-size: clamp(25px, 3vw, 28px);
-    color: #0b290a;
+    color: rgb(14, 10, 36);
     padding-left: 1.2rem;
 }
 .text {
@@ -414,8 +413,8 @@ a {
     border-radius: 100%;
     padding-inline: 15.2px;
     padding-block: 10px;
-    background-color: #c8efc3;
-    color: #0b290a;
+    background-color: white;
+    color: #0b0a29;
     font-size: clamp(17px, 3vw, 20px);
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -438,7 +437,7 @@ a {
 }
 .footer-title {
     text-transform: uppercase;
-    color: #0B290A;
+    color: #000a52;
     font-size: clamp(12px, 3vw, 13px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
