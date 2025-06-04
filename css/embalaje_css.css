@@ -44,7 +44,9 @@ a {
 
 /* --------- HEADER ---------- */
 .img-logo img {
-    width: 15rem;
+    width: 13rem;
+    height: 5rem;
+    object-fit: contain;
 }
 .nav {
     justify-content: space-between;
@@ -458,6 +460,7 @@ a {
 
     .img-logo img {
         width: 10rem;
+        object-fit: contain;
     }
     .nav {
         padding-block: .5rem;
@@ -555,6 +558,7 @@ a {
 
     .img-logo img {
         width: 10rem;
+        object-fit: contain;
     }
     .nav {
         padding-block: .5rem;
