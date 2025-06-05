@@ -165,6 +165,7 @@ a {
 .val {
     background-color: #0f285c;
     padding-block: 5rem;
+    cursor: default;
 }
 .item-val {
     position: relative;
@@ -374,8 +375,9 @@ a {
     grid-template-columns: repeat(2, auto);
 }
 .footer-img a > img {
-    width: 420px;
-    height: 500px;
+    width: 360px;
+    height: 450px;
+    object-fit: contain;
     border-radius: 15px;
     transition: all .3s ease-in-out;
 }
@@ -513,6 +515,9 @@ a {
     }
     .gap6rem-footer {
         gap: 5rem;
+    }
+    .flex-column-footer {
+        flex-direction: column-reverse;
     }
 }
 @media(max-width: 900px) {
