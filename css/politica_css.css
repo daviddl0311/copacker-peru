@@ -1,0 +1,88 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+p {
+    font-size: clamp(16px, 3vw, 20px);
+    font-family: 'Source Sans 3', sans-serif;
+}
+ul > li {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+li {
+    font-size: clamp(16px, 3vw, 20px);
+    font-family: 'Source Sans 3', sans-serif;;
+}
+h2 {
+    font-size: clamp(20px, 3vw, 25px);
+    font-family: 'Barlow', sans-serif;
+    color: #0e3d8f;
+}
+
+
+@view-transition {
+    navigation: auto;
+}
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.center {
+    display: grid;
+    place-content: center;
+}
+.container {
+    width: clamp(300px, 80vw, 800px);
+}
+
+/*ENLACE*/
+.enlace {
+    padding: 3rem;
+    font-size: clamp(16px, 3vw, 20px);
+}
+.fa-arrow-left {
+    font-size: 15px;
+}
+.enlace > a {
+    color: #0e3d8f;
+    font-weight: bold;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/*POLITICA*/
+.politica {
+    padding-block: 5rem;
+}
+.title {
+    color: #035bf2;
+    font-size: clamp(30px, 3vw, 40px);
+    font-family: 'Montserrat', sans-serif;
+}
+.gap {
+    gap: .8rem;
+}
+.gap2 {
+    gap: 2rem;
+}
+.gap3 {
+    gap: 4.2rem;
+}
+
+@media (width <= 750px) {
+    .politica {
+        padding-block: 3rem;
+    }
+    .enlace {
+        padding: 2rem; 
+    }
+}
